@@ -2,14 +2,17 @@
 <html>
 	<head>
 		<title>bmi calculator</title>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
 		<link type="text/css" rel="stylesheet" href="css/bootstrap.css">
 		<link type="text/css" rel="css" href="css/jquery-ui.css" />
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/npm.js"></script>
 		<script src="js/jquery.js"></script>
-		<script src="js/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		
 		<script src="js/main.js"></script>
+		
 	</head>
 	<body>
 		<ul class="nav nav-pills">
@@ -22,19 +25,19 @@
 				<form class="form-horizontal">
 					<div class="form-group text-center">
 					    <label class="col-sm-2 text-info">YOUR HEIGHT</label>
-					    <input type="text"  placeholder="feet">
-					    <input type="text" placeholder="inches">
+					    <input type="number" value= '' id='a' placeholder="feet">
+					    <input type="number" id='b' placeholder="inches">
 					</div>
 					<div class="form-group text-center">
 					    <label class="col-sm-2 text-info">YOUR WEIGHT</label>
-					    <input type="text" placeholder="pounds">
+					    <input type="number" id='c' placeholder="pounds">
 					</div>
 				</form>
-			<button type="button" class="btn btn-warning center-block">CALCULATE YOUR BMI</button>
+			<button type="button" id='btn1' onclick="bmi1()" class="btn btn-warning center-block">CALCULATE YOUR BMI</button>
 			<br> 
 				<div class="form-group text-center">
 			    		<label class="col-sm-2 text-success">YOUR BMI RESULT</label>
-			    		<input type="text" placeholder="result" readonly>
+			    		<input type="number" id='d' placeholder="result" readonly>
 				</div>
 
 			</div>
@@ -45,23 +48,24 @@
 				<form class="form-horizontal">
 					<div class="form-group text-center">
 					    <label class="col-sm-2 text-info">YOUR HEIGHT</label>
-					    <input type="text" placeholder="Centimetrers">
+					    <input type="number" id='e' placeholder="Metres">
 					</div>
 					<div class="form-group text-center">
 					     <label class="col-sm-2 text-info">YOUR WEIGHT</label>
-					     <input type="text" placeholder="Kilogram">
+					     <input type="number" id='f' placeholder="Kilogram">
 					</div>
 
 				</form>
 
-				<button type="button" class="btn btn-warning center-block">CALCULATE YOUR BMI</button>
+				<button type="button" onclick="bmi2()" class="btn btn-warning center-block">CALCULATE YOUR BMI</button>
 				<br>
 				<div class="form-group text-center">
 				     <label class="col-sm-2 text-success">YOUR BMI RESULT</label>
-				     <input type="text" placeholder="result" readonly>
+				     <input type="number" id='z' placeholder="result" readonly>
 				</div>
 
 			</div>
 		</div>
 	</body>
+	<script src="js/grass.js"></script>
 </html>
