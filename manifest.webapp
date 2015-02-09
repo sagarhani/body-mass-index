@@ -1,14 +1,13 @@
 {
-  "name": "My App",
-  "description": "My elevator pitch goes here",
+  "name": "BMI Calculator",
+  "description": "This is an app to claculate your BMI(Body Mass Index). Body Mass Index or Quetelet index, is a measure of relative size based on the mass and height of an individual. This can app stake the input in standard form or metric form and generate the result. The result obtained can be compared with the BMI Clasification Table. Eat Well! Drink Well! Exercise Well! Use the app Well! ",
   "launch_path": "/index.html",
   "icons": {
     "512": "/img/icon-512.png",
     "128": "/img/icon-128.png"
   },
   "developer": {
-    "name": "Your name or organization",
-    "url": "http://your-homepage-here.org"
+    "name": "Abraar Syed | Abhishek Jain | Mahesh G Naidu | Sagar Hani.",
   },
   "default_locale": "en"
 }
