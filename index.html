@@ -15,7 +15,7 @@
 		
 	</head>
 	<body>
-		<ul class="nav nav-pills">
+		<ul class="nav nav-pills" style="margin-left:50%;margin-top:20px">
 		    <li role="presentation" id="standards" class="active"><a href="#standard">STANDARD</a></li>
 		    <li role="presentation" id="metrics"><a href="#metric">METRIC</a></li>
 		</ul>
@@ -40,7 +40,7 @@
 			<br> 
 				<div class="form-group text-center">
 			    		<label class="col-sm-2 text-success">YOUR BMI RESULT</label>
-			    		<input type="number" id='d' placeholder="result" readonly>
+			    		<input type="text" id='d' placeholder="result" readonly>
 				</div>
 
 			</div>
@@ -66,11 +66,40 @@
 				<br>
 				<div class="form-group text-center">
 				     <label class="col-sm-2 text-success">YOUR BMI RESULT</label>
-				     <input type="number" id='z' placeholder="result" readonly>
+				     <input type="text" id='z' placeholder="result" readonly>
 				</div>
 
 			</div>
 		</div>
+
+		<div class="panel panel-default"  style="width:50%;margin-left:30%">
+			  <div class="panel-heading">BMI Classifications</div>
+			<table class="table table-condensed">
+  			<tr>
+			  <td class="info">18.5 or less</td>
+			  <td class="info">Underweight</td>
+			</tr>
+			<tr>
+			  <td class="success">18.5 to 24.99</td>
+			  <td class="success">Normal Weight</td>
+			</tr>
+			<tr>
+			  <td class="warning">25 to 29.99</td>
+			  <td class="warning">Overweight</td>
+			</tr>
+			<tr>
+			  <td class="danger">30 to 34.99</td>
+			  <td class="danger">Obesity (Class 1)</td>
+			</tr>
+			<tr>
+			  <td class="danger">35 to 39.99</td>
+			  <td class="danger">Obesity (Class 2)</td>
+			</tr> 	
+			<tr>
+			  <td class="danger">40 or greater</td>
+			  <td class="danger">Morbid Obesity</td>
+			</tr>
+		</table>
 	</body>
 	<script src="js/grass.js"></script>
 </html>
