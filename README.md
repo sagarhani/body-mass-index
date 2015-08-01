@@ -10,7 +10,10 @@ To start using this App,
 
 Or else you can use the firefox simulator to directly view the App on FireFox OS.
 
+### App icon :
 
 ![BMI Calculator](https://marketplace.cdn.mozilla.net/img/uploads/addon_icons/510/510674-128.png)
 
+### Screenshot of the app :
 
+![Screenshot](https://marketplace.cdn.mozilla.net/img/uploads/previews/full/167/167880.png)
