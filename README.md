@@ -11,3 +11,6 @@ To start using this App,
 Or else you can use the firefox simulator to directly view the App on FireFox OS.
 
 
+![BMI Calculator](https://marketplace.cdn.mozilla.net/img/uploads/addon_icons/510/510674-128.png)
+
+
